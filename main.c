@@ -81,5 +81,8 @@ int main() {
   // list should be 9->10->13->14->NULL;
   list_print(list);
   
+  list_free(list);
+  
+  
   return 0;
 }
